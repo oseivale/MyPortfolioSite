@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin Sketch', cursive;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
+}
+
+.text-box{
+  height: 75vh;
+  background-image: linear-gradient(to right bottom, rgba(119, 121, 228, 0.6), rgba(242, 182, 79, 0.8)), url('../images/blur-book-stack-books-590493.jpg');
+  background-size: cover;
+
+}
+
+.header{
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0%, 100% 55vh, 0 100%);
+  animation-name: header;
+  animation-duration: 3s;
+}
+
+@keyframes header{
+  0%{
+    opacity: 0;
+  }
+}
+
+.main-header{
+  padding-left: 100px;
+  padding-top: 250px;
+  display: block;
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+
+  animation-name: title2;
+  animation-duration: 2s;
+
+}
+
+@keyframes title2{
+
+  0% {
+    opacity: 0;
+    transform: translate(100px);
+  }
+
+}
+
+.sub-header{
+  padding-left: 175px;
+  color: #fff;
+  font-size: 75px;
+  font-family: 'Raleway', sans-serif;
+
+  animation-name: title1;
+  animation-duration: 5s;
+}
+
+@keyframes title1{
+
+  0% {
+    opacity: 0;
+    
+  }
+
+}
+
+
+.nav-bar{
+  text-align: right;
+  padding: 20px 45px;
+}
+
+.nav-link{
+  padding: 15px;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.my-bio{
+  height: 30vh;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: right;
+  /* background-color: rgb(219, 188, 155); */
+  font-family: 'Raleway', sans-serif;
+}
+
+.my-future {
+  height: 30vh;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+  /* background-color: rgb(219, 188, 155); */
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+.my-work{
+  height: 70vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(175, 142, 78, 0.7), rgba(181, 209, 221, 0.5)), url('../images/antique-blank-book-163182.jpg');
+  background-size: cover;
+  border: solid black 1px;
+  border-radius: 2px;
+
+  clip-path: polygon(0 0, 100% 20%, 100% 55vh, 0 100%);
+
+}
+
+.my-journey{
+  height: 70vh;
+  margin-top: 20px;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(175, 142, 78, 0.7), rgba(181, 209, 221, 0.5)), url('../images/adventure-beach-compass-691637.jpg');
+  background-size: cover;
+
+  clip-path: polygon(0 0, 100% 0%, 100% 100vh, 0 100%);
+
+}
+
+.middle-header{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 100px;
+}
+
+
+
+.main-footer{
+  background-color: #000000;
+  margin-top: 20px;
+  height: 30vh;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+hello
